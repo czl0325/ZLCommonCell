@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   #s.resources = 'SXWaveAnimate/images/*.{png,xib}'
  #s.exclude_files = "Classes/Exclude"
   s.resource_bundles = {
-    'ZLCommonCell' => ['resource/*']
+    'ZLCommonCell' => ['ZLCommonCellDemo/ZLCommomCell/resource/*']
   }
   s.requires_arc = true
   s.dependency 'Masonry' 
