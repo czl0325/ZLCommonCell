@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
-  s.name         = "ZLCommomCell"
+  s.name         = "ZLCommonCell"
   s.version      = "1.0.0"
-  s.summary      = "ZLCommomCell"
+  s.summary      = "ZLCommonCell"
 
   s.description  = <<-DESC
                       自己封装了一些常用的tableviewcell和collectionviewcell
