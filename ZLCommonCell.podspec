@@ -18,9 +18,12 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/czl0325/ZLCommonCell.git", :tag => s.version }
   
   #s.ios.deployment_target = '8.0'
-  s.source_files  = "ZLCommonCellDemo/ZLCommomCell/*.*"
+  s.source_files  = "ZLCommonCellDemo/ZLCommomCell/*.{h,m}"
   #s.resources = 'SXWaveAnimate/images/*.{png,xib}'
  #s.exclude_files = "Classes/Exclude"
+  s.resource_bundles = {
+    'ZLCommonCell' => ['resource/*']
+  }
   s.requires_arc = true
   s.dependency 'Masonry' 
 
