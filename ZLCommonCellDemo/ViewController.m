@@ -11,6 +11,7 @@
 #import "ZLWrapTextCell.h"
 #import "ZLTextHeaderFooterView.h"
 #import "ZLButtonHeaderFooterView.h"
+#import "ViewController2.h"
 
 @interface ViewController ()
 <UITableViewDelegate,UITableViewDataSource>
@@ -24,6 +25,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.title = @"左图+左文+右图+右文";
     
     self.arrayDatas = @[@"美国漫威之父斯坦-李去世 曾创造蜘蛛侠等角色",@"银隆原董事长魏银仓、原总裁孙国华涉嫌非法侵占公司超10亿",@"工行20亿电票诈骗案曝光： 借银行办公室 雇人冒充银行董事长",@"高圆圆自曝3年不拍片原因，首回应被催生：不想按别人想法活着.高圆圆自曝3年不拍片原因，首回应被催生：不想按别人想法活着"];
     
@@ -87,6 +90,11 @@
         NSLog(@"点击事件");
     };
     return footer;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    ViewController2* vc = [[ViewController2 alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

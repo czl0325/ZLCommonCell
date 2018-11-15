@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2A2E01C5CD104180281434F8 /* Pods_ZLCommonCellDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E437EA86AB6E191F6D95D7EB /* Pods_ZLCommonCellDemo.framework */; };
+		BE0F8750219D182D00076CA4 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F874F219D182D00076CA4 /* ViewController2.m */; };
+		BE0F8753219D1B6C00076CA4 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F8752219D1B6C00076CA4 /* ViewController3.m */; };
 		BE305FAD219A5F94008B5C97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE305FAC219A5F94008B5C97 /* AppDelegate.m */; };
 		BE305FB0219A5F94008B5C97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE305FAF219A5F94008B5C97 /* ViewController.m */; };
-		BE305FB3219A5F94008B5C97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE305FB1219A5F94008B5C97 /* Main.storyboard */; };
 		BE305FB5219A5F95008B5C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE305FB4219A5F95008B5C97 /* Assets.xcassets */; };
 		BE305FB8219A5F95008B5C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE305FB6219A5F95008B5C97 /* LaunchScreen.storyboard */; };
 		BE305FBB219A5F95008B5C97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE305FBA219A5F95008B5C97 /* main.m */; };
@@ -44,12 +45,15 @@
 
 /* Begin PBXFileReference section */
 		7E796D3921077B2EAB774118 /* Pods-ZLCommonCellDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLCommonCellDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZLCommonCellDemo/Pods-ZLCommonCellDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BE0F874E219D182D00076CA4 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		BE0F874F219D182D00076CA4 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		BE0F8751219D1B6C00076CA4 /* ViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		BE0F8752219D1B6C00076CA4 /* ViewController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 		BE305FA8219A5F94008B5C97 /* ZLCommonCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLCommonCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE305FAB219A5F94008B5C97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE305FAC219A5F94008B5C97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BE305FAE219A5F94008B5C97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BE305FAF219A5F94008B5C97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BE305FB2219A5F94008B5C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE305FB4219A5F95008B5C97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE305FB7219A5F95008B5C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE305FB9219A5F95008B5C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -133,11 +137,14 @@
 				BE305FAC219A5F94008B5C97 /* AppDelegate.m */,
 				BE305FAE219A5F94008B5C97 /* ViewController.h */,
 				BE305FAF219A5F94008B5C97 /* ViewController.m */,
-				BE305FB1219A5F94008B5C97 /* Main.storyboard */,
 				BE305FB4219A5F95008B5C97 /* Assets.xcassets */,
 				BE305FB6219A5F95008B5C97 /* LaunchScreen.storyboard */,
 				BE305FB9219A5F95008B5C97 /* Info.plist */,
 				BE305FBA219A5F95008B5C97 /* main.m */,
+				BE0F874E219D182D00076CA4 /* ViewController2.h */,
+				BE0F874F219D182D00076CA4 /* ViewController2.m */,
+				BE0F8751219D1B6C00076CA4 /* ViewController3.h */,
+				BE0F8752219D1B6C00076CA4 /* ViewController3.m */,
 			);
 			path = ZLCommonCellDemo;
 			sourceTree = "<group>";
@@ -313,7 +320,6 @@
 				BEFE19BE219A6C8E0009566C /* zl_arrow_right.png in Resources */,
 				BE305FB8219A5F95008B5C97 /* LaunchScreen.storyboard in Resources */,
 				BE305FB5219A5F95008B5C97 /* Assets.xcassets in Resources */,
-				BE305FB3219A5F94008B5C97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,8 +398,10 @@
 				BE305FAD219A5F94008B5C97 /* AppDelegate.m in Sources */,
 				BEFE19CD219AB64C0009566C /* ZLTableViewCell2.m in Sources */,
 				BEFE19C4219A72BC0009566C /* ZLButtonHeaderFooterView.m in Sources */,
+				BE0F8750219D182D00076CA4 /* ViewController2.m in Sources */,
 				BEFE19CA219AAC710009566C /* ZLLabelCell.m in Sources */,
 				BEFE19C1219A72A90009566C /* ZLTextHeaderFooterView.m in Sources */,
+				BE0F8753219D1B6C00076CA4 /* ViewController3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,14 +437,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BE305FB1219A5F94008B5C97 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE305FB2219A5F94008B5C97 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BE305FB6219A5F95008B5C97 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

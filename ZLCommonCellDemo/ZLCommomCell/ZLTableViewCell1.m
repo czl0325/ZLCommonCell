@@ -15,7 +15,7 @@
     if (self == [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         [self.contentView addSubview:self.leftImageView];
         [self.leftImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.top.mas_equalTo(self.contentView);
+            make.left.top.mas_equalTo(10);
             make.size.mas_equalTo(CGSizeMake(100, 150));
             make.bottom.mas_equalTo(-10);
         }];
