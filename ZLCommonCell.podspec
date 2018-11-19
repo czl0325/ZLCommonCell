@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZLCommonCell"
-  s.version      = "1.0.2"
+  s.version      = "1.1.0"
   s.summary      = "ZLCommonCell"
 
   s.description  = <<-DESC
@@ -26,5 +26,7 @@ Pod::Spec.new do |s|
   }
   s.requires_arc = true
   s.dependency 'Masonry' 
+  s.dependency 'SDWebImage' 
+
 
 end

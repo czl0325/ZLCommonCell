@@ -10,6 +10,11 @@
 		2A2E01C5CD104180281434F8 /* Pods_ZLCommonCellDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E437EA86AB6E191F6D95D7EB /* Pods_ZLCommonCellDemo.framework */; };
 		BE0F8750219D182D00076CA4 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F874F219D182D00076CA4 /* ViewController2.m */; };
 		BE0F8753219D1B6C00076CA4 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F8752219D1B6C00076CA4 /* ViewController3.m */; };
+		BE0F8756219D214000076CA4 /* ZLTableViewCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F8755219D214000076CA4 /* ZLTableViewCell3.m */; };
+		BE0F8759219D21FC00076CA4 /* ZLCollectionCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F8758219D21FC00076CA4 /* ZLCollectionCell1.m */; };
+		BE0F875C219D507F00076CA4 /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F875B219D507F00076CA4 /* ViewController4.m */; };
+		BE0F8760219D6F5C00076CA4 /* ZLMultipleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F875F219D6F5C00076CA4 /* ZLMultipleImageView.m */; };
+		BE2D07DC219E660100EFC892 /* ViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D07DB219E660100EFC892 /* ViewController5.m */; };
 		BE305FAD219A5F94008B5C97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE305FAC219A5F94008B5C97 /* AppDelegate.m */; };
 		BE305FB0219A5F94008B5C97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE305FAF219A5F94008B5C97 /* ViewController.m */; };
 		BE305FB5219A5F95008B5C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE305FB4219A5F95008B5C97 /* Assets.xcassets */; };
@@ -49,6 +54,16 @@
 		BE0F874F219D182D00076CA4 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		BE0F8751219D1B6C00076CA4 /* ViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
 		BE0F8752219D1B6C00076CA4 /* ViewController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		BE0F8754219D214000076CA4 /* ZLTableViewCell3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLTableViewCell3.h; sourceTree = "<group>"; };
+		BE0F8755219D214000076CA4 /* ZLTableViewCell3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLTableViewCell3.m; sourceTree = "<group>"; };
+		BE0F8757219D21FC00076CA4 /* ZLCollectionCell1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCollectionCell1.h; sourceTree = "<group>"; };
+		BE0F8758219D21FC00076CA4 /* ZLCollectionCell1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLCollectionCell1.m; sourceTree = "<group>"; };
+		BE0F875A219D507F00076CA4 /* ViewController4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
+		BE0F875B219D507F00076CA4 /* ViewController4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
+		BE0F875E219D6F5C00076CA4 /* ZLMultipleImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLMultipleImageView.h; sourceTree = "<group>"; };
+		BE0F875F219D6F5C00076CA4 /* ZLMultipleImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLMultipleImageView.m; sourceTree = "<group>"; };
+		BE2D07DA219E660100EFC892 /* ViewController5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController5.h; sourceTree = "<group>"; };
+		BE2D07DB219E660100EFC892 /* ViewController5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController5.m; sourceTree = "<group>"; };
 		BE305FA8219A5F94008B5C97 /* ZLCommonCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLCommonCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE305FAB219A5F94008B5C97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE305FAC219A5F94008B5C97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -107,6 +122,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE0F875D219D6E9B00076CA4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BE0F875E219D6F5C00076CA4 /* ZLMultipleImageView.h */,
+				BE0F875F219D6F5C00076CA4 /* ZLMultipleImageView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		BE305F9F219A5F94008B5C97 = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +169,10 @@
 				BE0F874F219D182D00076CA4 /* ViewController2.m */,
 				BE0F8751219D1B6C00076CA4 /* ViewController3.h */,
 				BE0F8752219D1B6C00076CA4 /* ViewController3.m */,
+				BE0F875A219D507F00076CA4 /* ViewController4.h */,
+				BE0F875B219D507F00076CA4 /* ViewController4.m */,
+				BE2D07DA219E660100EFC892 /* ViewController5.h */,
+				BE2D07DB219E660100EFC892 /* ViewController5.m */,
 			);
 			path = ZLCommonCellDemo;
 			sourceTree = "<group>";
@@ -170,6 +198,7 @@
 		BEFE19B8219A66190009566C /* ZLCommomCell */ = {
 			isa = PBXGroup;
 			children = (
+				BE0F875D219D6E9B00076CA4 /* view */,
 				BEFE19BC219A6C8E0009566C /* resource */,
 				BEFE19B9219A66D10009566C /* ZLWrapTextCell.h */,
 				BEFE19BA219A66D10009566C /* ZLWrapTextCell.m */,
@@ -183,6 +212,10 @@
 				BEFE19C9219AAC710009566C /* ZLLabelCell.m */,
 				BEFE19CB219AB64C0009566C /* ZLTableViewCell2.h */,
 				BEFE19CC219AB64C0009566C /* ZLTableViewCell2.m */,
+				BE0F8754219D214000076CA4 /* ZLTableViewCell3.h */,
+				BE0F8755219D214000076CA4 /* ZLTableViewCell3.m */,
+				BE0F8757219D21FC00076CA4 /* ZLCollectionCell1.h */,
+				BE0F8758219D21FC00076CA4 /* ZLCollectionCell1.m */,
 			);
 			path = ZLCommomCell;
 			sourceTree = "<group>";
@@ -372,12 +405,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZLCommonCellDemo/Pods-ZLCommonCellDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -391,10 +426,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2D07DC219E660100EFC892 /* ViewController5.m in Sources */,
 				BEFE19BB219A66D10009566C /* ZLWrapTextCell.m in Sources */,
+				BE0F8756219D214000076CA4 /* ZLTableViewCell3.m in Sources */,
+				BE0F8760219D6F5C00076CA4 /* ZLMultipleImageView.m in Sources */,
 				BE305FB0219A5F94008B5C97 /* ViewController.m in Sources */,
 				BEFE19C7219AA6B00009566C /* ZLTableViewCell1.m in Sources */,
 				BE305FBB219A5F95008B5C97 /* main.m in Sources */,
+				BE0F875C219D507F00076CA4 /* ViewController4.m in Sources */,
+				BE0F8759219D21FC00076CA4 /* ZLCollectionCell1.m in Sources */,
 				BE305FAD219A5F94008B5C97 /* AppDelegate.m in Sources */,
 				BEFE19CD219AB64C0009566C /* ZLTableViewCell2.m in Sources */,
 				BEFE19C4219A72BC0009566C /* ZLButtonHeaderFooterView.m in Sources */,
