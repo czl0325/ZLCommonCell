@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZLCommonCell"
-  s.version      = "1.1.0"
+  s.version      = "1.1.1"
   s.summary      = "ZLCommonCell"
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/czl0325/ZLCommonCell.git", :tag => s.version }
   
   #s.ios.deployment_target = '8.0'
-  s.source_files  = "ZLCommonCellDemo/ZLCommomCell/*.{h,m}"
+  s.source_files = "ZLCommonCellDemo/ZLCommomCell/*.{h,m}"
   #s.resources = 'SXWaveAnimate/images/*.{png,xib}'
  #s.exclude_files = "Classes/Exclude"
   s.resource_bundles = {
@@ -27,7 +27,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency 'Masonry' 
   s.dependency 'SDWebImage'
-  s.frameworks = "Foundation","UIKit"
 
 
 end
