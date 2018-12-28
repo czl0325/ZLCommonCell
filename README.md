@@ -1,6 +1,9 @@
 # ZLCommonCell
 一些通用的tableview和collectionview的cell，header。
 
+### cocoapods导入
+
+pod 'ZLCommonCell'
 
 ### 普通cell，
     带左文字，左图片，右文字，右图片，可以选择隐藏图片
