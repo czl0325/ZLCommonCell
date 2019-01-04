@@ -11,7 +11,7 @@
 
 @implementation ZLCollectionCell1
 
-#define ImageSize 50
+#define ImageSize 30
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self == [super initWithFrame:frame]) {
@@ -21,7 +21,7 @@
         [self.topImageView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.size.mas_equalTo(ImageSize);
             make.centerX.mas_equalTo(self.contentView);
-            make.bottom.mas_equalTo(self.contentView.mas_centerY).offset(15);
+            make.bottom.mas_equalTo(self.contentView.mas_centerY).offset(10);
         }];
         
         [self.contentView addSubview:self.bottomLabel];
