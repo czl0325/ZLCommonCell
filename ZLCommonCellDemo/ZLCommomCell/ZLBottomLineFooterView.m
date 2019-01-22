@@ -8,6 +8,10 @@
 #import "ZLBottomLineFooterView.h"
 #import "Masonry.h"
 
+@interface ZLBottomLineFooterView()
+
+@end
+
 @implementation ZLBottomLineFooterView
 
 - (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier {
@@ -25,42 +29,60 @@
 }
 
 - (void)setupUI {
-    [self.contentView addSubview:self.textLabel];
-    [self.textLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+    [self.contentView addSubview:self.centerLabel];
+    [self.centerLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.mas_equalTo(self.contentView);
     }];
     
-    UIView* line1 = [[UIView alloc]init];
-    line1.backgroundColor = [UIColor grayColor];
-    [self.contentView addSubview:line1];
-    [line1 mas_makeConstraints:^(MASConstraintMaker *make) {
+    [self.contentView addSubview:self.leftLine];
+    [self.leftLine mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.mas_equalTo(self.contentView);
-        make.right.mas_equalTo(self.textLabel.mas_left).offset(-10);
+        make.right.mas_equalTo(self.centerLabel.mas_left).offset(-10);
         make.height.mas_equalTo(1);
         make.width.mas_equalTo(100);
     }];
     
-    UIView* line2 = [[UIView alloc]init];
-    line2.backgroundColor = [UIColor grayColor];
-    [self.contentView addSubview:line2];
-    [line2 mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerY.mas_equalTo(line1);
-        make.left.mas_equalTo(self.textLabel.mas_right).offset(10);
-        make.size.mas_equalTo(line1);
+    [self.contentView addSubview:self.rightLine];
+    [self.rightLine mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerY.mas_equalTo(self.leftLine);
+        make.left.mas_equalTo(self.centerLabel.mas_right).offset(10);
+        make.size.mas_equalTo(self.leftLine);
     }];
 }
 
-- (UILabel*)textlabel {
-    if (!_textlabel) {
-        _textlabel = [[UILabel alloc]init];
+- (UILabel*)centerLabel {
+    if (!_centerLabel) {
+        _centerLabel = [[UILabel alloc]init];
         if (@available(iOS 6.0, *)) {
-            _textlabel.textAlignment = NSTextAlignmentCenter;
+            _centerLabel.textAlignment = NSTextAlignmentCenter;
         }
-        _textlabel.font = [UIFont systemFontOfSize:14];
-        _textlabel.textColor = [UIColor grayColor];
-        _textlabel.text = @"我是有底线的";
+        _centerLabel.font = [UIFont systemFontOfSize:14];
+        _centerLabel.textColor = [UIColor grayColor];
+        _centerLabel.text = @"我是有底线的";
     }
-    return _textlabel;
+    return _centerLabel;
 }
 
+
+- (UIView *)leftLine{
+    if(!_leftLine){
+        _leftLine = ({
+            UIView * object = [[UIView alloc]init];
+            object.backgroundColor = [UIColor colorWithRed:170.0/255 green:170.0/255 blue:170.0/255 alpha:1.0];
+            object;
+       });
+    }
+    return _leftLine;
+}
+
+- (UIView *)rightLine{
+    if(!_rightLine){
+        _rightLine = ({
+            UIView * object = [[UIView alloc]init];
+            object.backgroundColor = [UIColor colorWithRed:170.0/255 green:170.0/255 blue:170.0/255 alpha:1.0];
+            object;
+       });
+    }
+    return _rightLine;
+}
 @end

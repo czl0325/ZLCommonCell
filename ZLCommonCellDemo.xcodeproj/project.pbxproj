@@ -14,6 +14,7 @@
 		BE0F8759219D21FC00076CA4 /* ZLCollectionCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F8758219D21FC00076CA4 /* ZLCollectionCell1.m */; };
 		BE0F875C219D507F00076CA4 /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F875B219D507F00076CA4 /* ViewController4.m */; };
 		BE0F8760219D6F5C00076CA4 /* ZLMultipleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F875F219D6F5C00076CA4 /* ZLMultipleImageView.m */; };
+		BE14B4B121F69F360009C400 /* ZLBottomLineFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE14B4B021F69F360009C400 /* ZLBottomLineFooterView.m */; };
 		BE2D07DC219E660100EFC892 /* ViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D07DB219E660100EFC892 /* ViewController5.m */; };
 		BE305FAD219A5F94008B5C97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE305FAC219A5F94008B5C97 /* AppDelegate.m */; };
 		BE305FB0219A5F94008B5C97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE305FAF219A5F94008B5C97 /* ViewController.m */; };
@@ -62,6 +63,8 @@
 		BE0F875B219D507F00076CA4 /* ViewController4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
 		BE0F875E219D6F5C00076CA4 /* ZLMultipleImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLMultipleImageView.h; sourceTree = "<group>"; };
 		BE0F875F219D6F5C00076CA4 /* ZLMultipleImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLMultipleImageView.m; sourceTree = "<group>"; };
+		BE14B4AF21F69F360009C400 /* ZLBottomLineFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLBottomLineFooterView.h; sourceTree = "<group>"; };
+		BE14B4B021F69F360009C400 /* ZLBottomLineFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLBottomLineFooterView.m; sourceTree = "<group>"; };
 		BE2D07DA219E660100EFC892 /* ViewController5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController5.h; sourceTree = "<group>"; };
 		BE2D07DB219E660100EFC892 /* ViewController5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController5.m; sourceTree = "<group>"; };
 		BE305FA8219A5F94008B5C97 /* ZLCommonCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLCommonCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -216,6 +219,8 @@
 				BE0F8755219D214000076CA4 /* ZLTableViewCell3.m */,
 				BE0F8757219D21FC00076CA4 /* ZLCollectionCell1.h */,
 				BE0F8758219D21FC00076CA4 /* ZLCollectionCell1.m */,
+				BE14B4AF21F69F360009C400 /* ZLBottomLineFooterView.h */,
+				BE14B4B021F69F360009C400 /* ZLBottomLineFooterView.m */,
 			);
 			path = ZLCommomCell;
 			sourceTree = "<group>";
@@ -434,6 +439,7 @@
 				BEFE19C7219AA6B00009566C /* ZLTableViewCell1.m in Sources */,
 				BE305FBB219A5F95008B5C97 /* main.m in Sources */,
 				BE0F875C219D507F00076CA4 /* ViewController4.m in Sources */,
+				BE14B4B121F69F360009C400 /* ZLBottomLineFooterView.m in Sources */,
 				BE0F8759219D21FC00076CA4 /* ZLCollectionCell1.m in Sources */,
 				BE305FAD219A5F94008B5C97 /* AppDelegate.m in Sources */,
 				BEFE19CD219AB64C0009566C /* ZLTableViewCell2.m in Sources */,

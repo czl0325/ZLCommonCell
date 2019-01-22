@@ -11,7 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ZLBottomLineFooterView : UITableViewHeaderFooterView
 
-@property(nonatomic,strong)UILabel* textlabel;
+@property(nonatomic,strong)UILabel* centerLabel;
+@property(nonatomic,strong)UIView* leftLine;
+@property(nonatomic,strong)UIView* rightLine;
 
 @end
 
